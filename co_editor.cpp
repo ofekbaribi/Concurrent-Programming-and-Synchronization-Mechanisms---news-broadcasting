@@ -14,7 +14,7 @@ void CoEditor::edit() {
             output_queue.insert("DONE");
             break;
         }
-        this_thread::sleep_for(chrono::milliseconds(1000)); // Simulate editing delay
+        this_thread::sleep_for(chrono::milliseconds(100));
         output_queue.insert(message);
     }
 }
