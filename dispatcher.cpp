@@ -33,7 +33,7 @@ void Dispatcher::dispatch() {
             }
         }
 
-        usleep(100); // Sleep for a short period to avoid busy-waiting
+    
     }
 
     sports_queue.insert("DONE");
